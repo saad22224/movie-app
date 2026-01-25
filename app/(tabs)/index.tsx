@@ -20,9 +20,9 @@ export default function App() {
 
     )
     );
-  console.log("movies:", movies);
-  console.log("loading:", moviesLoading);
-  console.log("error:", moviesError);
+  // console.log("movies:", movies);
+  // console.log("loading:", moviesLoading);
+  // console.log("error:", moviesError);
 
   return (
     <View className="flex-1  bg-primary">
