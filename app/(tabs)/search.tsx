@@ -33,6 +33,7 @@ const search = () => {
     setTimeout(() => func(), 500);
   }, [query]);
   return (
+    
     <View className='flex-1 bg-primary'>
       <Image source={images.bg} className='flex-1 w-full absolute z-0' resizeMethod='cover' />
       <FlatList

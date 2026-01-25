@@ -40,7 +40,7 @@ export default function App() {
         ) : moviesError ? (
           <Text className="text-white text-center mt-10">Error {moviesError.message}</Text>
         ) : <View className="flex-1 mt-5">
-          <SearchBar onPress={() => router.push('/search')} placeholder="Search for amovie" />
+          <SearchBar onPress={() => router.push('/search')} value="" onChange={() => { }} placeholder="Search for amovie" />
 
           <>
             <Text className="text-white font-bold text-lg mt-5 mb-3">Popular Movies</Text>
